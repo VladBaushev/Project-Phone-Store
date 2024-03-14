@@ -2,12 +2,6 @@
 <!DOCTYPE HTML>
 <html lang="ru">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<viewport.content {
-    width: 100%;
-min-width:10%; max-width; 100%; min-height:10%; max-height: 100%;
-    max-width: 1200px;
-    user-scalable="true"
-}>
 <head>
 <meta charset="UTF-8">
 <meta http-"X-UA-Compartible" content-"IE-edge">
@@ -19,10 +13,11 @@ min-width:10%; max-width; 100%; min-height:10%; max-height: 100%;
     color: #000000;
    }
   </style>
+
 <body> <div class="conteiner"> <div class="row justify-contenr-center"> <div class="col-12 mt-5">
 <table>
 <tr><td>Apple iPhone 15 Plus 128GB Black<br> <button type="submit" id="submit1" onclick="alerted1();">88 990 ₽</button>
-<a href="site.ru/link"><br/><img src="https://app-room76.ru/wp-content/uploads/2023/09/Background-7.jpg" alt="Image" height="350" width="300" min-width="10%" max-width="100%" min-height="10%" max-height="100%"/></a>
+<a href="site.ru/link"><br/><img src="https://app-room76.ru/wp-content/uploads/2023/09/Background-7.jpg" alt="Image" height="95%" width="80%"/></a>
 <td><br>Характеристики</br>
 <br>Производитель	Apple
 <br>Версия ОС	iOS 17
@@ -43,7 +38,7 @@ min-width:10%; max-width; 100%; min-height:10%; max-height: 100%;
 
 
 <td>Apple iPhone 15 Plus 128GB Blue <br> <button type="submit" id="submit1" onclick="alerted2();">88 990 ₽</button>
-<a href="site.ru/link"><br/><img src="https://app-room76.ru/wp-content/uploads/2023/09/Background-5.jpg" alt="Image" height="350" width="300" min-width="10%" max-width="100%" min-height="10%" max-height="100%"/></a>
+<a href="site.ru/link"><br/><img src="https://app-room76.ru/wp-content/uploads/2023/09/Background-5.jpg" alt="Image" height="95%" width="80%"/></a>
 <td><br>Характеристики</br>
 <br>Производитель	Apple
 <br>Версия ОС	iOS 17
@@ -63,7 +58,7 @@ min-width:10%; max-width; 100%; min-height:10%; max-height: 100%;
 <br>Гарантия	EAC</tr></br>
 
 <tr><td>Apple iPhone 15 128GB Pink <br> <button type="submit" id="submit1" onclick="alerted3();">74 990 ₽ </button>
-<a href="site.ru/link"><br/><img src="https://app-room76.ru/wp-content/uploads/2023/09/Background-8.jpg" alt="Image" height="350" width="300" min-width="10%" max-width="100%" min-height="10%" max-height="100%"/></a></br></br>
+<a href="site.ru/link"><br/><img src="https://app-room76.ru/wp-content/uploads/2023/09/Background-8.jpg" alt="Image" height="95%" width="80%"/></a></br></br>
 <td><br>Характеристики</br>
 <br>Производитель	Apple
 <br>Версия ОС	iOS 17
@@ -83,7 +78,7 @@ min-width:10%; max-width; 100%; min-height:10%; max-height: 100%;
 <br>Гарантия	EAC</td></br>
 
 <td>Apple iPhone 15 Pro 1Tb Blue Titanium <br> <button type="submit" id="submit1" onclick="alerted4();">155 990 ₽</button>
-<a href="site.ru/link"><br/><img src="https://app-room76.ru/wp-content/uploads/2023/09/Background-2.jpg" alt="Image" height="350" width="300" min-width="10%" max-width="100%" min-height="10%" max-height="100%"/></a></td>
+<a href="site.ru/link"><br/><img src="https://app-room76.ru/wp-content/uploads/2023/09/Background-2.jpg" alt="Image" alt="Image" height="95%" width="80%"/</a></td>
 <td><br>Характеристики</br>
 <br>Производитель	Apple
 <br>Версия ОС	iOS 17
@@ -104,7 +99,7 @@ min-width:10%; max-width; 100%; min-height:10%; max-height: 100%;
 </br></tr>
 
 <tr><td>Samsung Galaxy A54 5G 8 ГБ | 128 ГБ Awesome Graphite <br><button type="submit" id="submit5" onclick="alerted1();">32 490 ₽</button>
-<a href="site.ru/link"><br/><img src="https://app-room76.ru/wp-content/uploads/2023/04/20741-909uk-galaxy-a54-5g-sm-a546-sm-a546bzkceub-535771582.jpeg" alt="Image" height="350" width="300" min-width="10%" max-width="100%" min-height="10%" max-height="100%"/></a></td>
+<a href="site.ru/link"><br/><img src="https://app-room76.ru/wp-content/uploads/2023/04/20741-909uk-galaxy-a54-5g-sm-a546-sm-a546bzkceub-535771582.jpeg"  alt="Image" height="95%" width="80%"/></a></td>
 <td><br>Характеристики</br>
 <br>Экран	6.4" (2340×1080) Super AMOLED 120 Гц
 <br>Память	встроенная 128 ГБ, оперативная 8 ГБ
@@ -115,7 +110,7 @@ min-width:10%; max-width; 100%; min-height:10%; max-height: 100%;
 </br>
 
 <td>POCO F5 Pro 12/256GB Black <br> <button type="submit" id="submit1" onclick="alerted6();">32 490 ₽</button> 
-<a href="site.ru/link"><br/><img src="https://app-room76.ru/wp-content/uploads/2023/08/21857-9850191802_xiaomi-poco-f5-pro-5g-12256gb-black_550.jpeg" alt="Image" height="350" width="300" min-width="10%" max-width="100%" min-height="10%" max-height="100%"/></a></td>
+<a href="site.ru/link"><br/><img src="https://app-room76.ru/wp-content/uploads/2023/08/21857-9850191802_xiaomi-poco-f5-pro-5g-12256gb-black_550.jpeg"  alt="Image" height="95%" width="80%"/></a></td>
 <td><br>Характеристики</br>
 <br>Емкость аккумулятора	5160
 <br>Количество ядер процессора	8
