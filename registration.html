@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="all">
+        <header class="header">
+            <a class="header__Logo" href="index.html">
+                <img class="header_img" src="img/logo.svg" alt="Логотип">
+            </a>
+            <nav class="header__nav">
+                <ul class="header__menu">
+                    <li class="header__list"><a class="header__link header__link__active" href="index.html"> Главная
+                        </a></li>
+                    <li class="header__list"><a class="header__link" href="Xiomi.html"> Samsung </a></li>
+                    <li class="header__list"><a class="header__link" href="Apple.html"> Xiomi </a></li>
+                    <li class="header__list"><a class="header__link" href="contacts.html"> Apple </a></li>
+                </ul>
+            </nav>
+            <a class="header__button_hidden" href="#">Войти</a>
+            <a class="header__button" href="#">Корзина</a>
+        </header>
+        <main class="content">
+            <form action="registration.php" method="post">
+                <h1 class="content__title">Регистрация</h1>
+                <p class="p__registration">
+                    <input name = "Login" class="authorization__log" type="text" placeholder="Логин" required>
+                </p>
+                <p class="p__registration">
+                    <input name = "Password" class="authorization__log" type="password" placeholder="Пароль" required>
+                </p>
+                <p class="p__registration">
+                    <input name = "Phone" class="authorization__log" type="text" placeholder="Телефон" required>
+                </p>
+                <p class="p__registration">
+                    <input name = "Email" class="authorization__log" type="email" placeholder="E-mail" required>
+                </p>
+                <button type="sibmit" class="header__button2" >Зарегистрироваться</button>    
+            </form>
+        </main>
+    </div>
+    <footer class="footer">
+        <p> 2024 &copy; <a class="footer__text" href="#">Магазин телефонов</a></p>
+    </footer>
+    <script>
+        const buttonEl = document.querySelector('.header__button');
+        const blockEl = document.querySelector('.authorization');
+        const secondButton = document.querySelector('.header__button2');
+
+        buttonEl.addEventListener('click', function (e) {
+            blockEl.classList.toggle('visible');
+        });
+        secondButton.addEventListener('click', function (e) {
+            blockEl.classList.toggle('visible');
+        });
+    </script>
+</body>
+
+</html>

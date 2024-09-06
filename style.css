@@ -1,0 +1,1331 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.all {
+    flex-grow: 1;
+}
+.header {
+    background: #249da1; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: calc(50% - 1300px / 2);
+    padding-right: calc(50% - 1300px / 2);  
+}
+.header__Logo {
+    margin-left: 16px;
+}
+.header__menu {
+    display: flex;
+    list-style-type: none;
+    margin-left: 54px;
+}     
+.header__link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    padding: 28px 18px;
+    display: block;
+}
+.header__link__active {
+    color: #249da1;
+    background: #FFFFFF;
+    text-decoration: none;
+}
+.header__button {   
+    margin-right: 16px;
+    width: 153px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccea21;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.header__button_hidden {   
+    visibility: hidden;
+    margin-right: 16px;
+    width: 153px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccea21;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.href__registration {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.authorization {
+    padding-left: calc(50% - 500px /2);
+    padding-right: calc(50% - 500px /2);
+    display: none; 
+    position: relative;
+
+}
+
+.authorization__login{
+}
+
+.authorization__info {
+    background: #FFFFFF;
+    border: 1px solid #249da1;
+    width: 480px;
+    margin: 0px auto;
+    height: 400px;
+    margin-top: 30px;
+    position: absolute;
+    z-index: 1;
+}
+.authorization__form {
+    padding-left: calc(50% - 444px /2);
+    padding-right: calc(50% - 444px /2);
+}
+.authorization__title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 26px;
+}
+.authorization__log {
+    padding-left: 14px;
+    width: 430px;
+    height: 50px;
+    margin-top: 36px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.p__registration {
+    padding-left: 14px;
+    width: 430px;
+    height: 50px;
+    margin-bottom: 48px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    margin-left: 230px;
+}
+
+.authorization__pas {
+    padding-left: 14px;
+    width: 430px;
+    height: 50px;
+    margin-top: 50px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+}
+.header__button2 {
+    margin: 20px auto;
+    width: 170px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccea21;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    color: aliceblue;
+    text-decoration: none;
+}
+.content {
+    max-width: 911px;
+    width: 100%;
+    margin: 0px auto;
+}
+.content__title {
+    padding-top: 33px;
+    padding-bottom: 25px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    display: flex;
+    justify-content: center;
+    color: #000000;
+}
+.content__info {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.content__article{
+    width: 635px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+.content__subtitle {
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    color: #000000;
+}
+.content__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.text {  
+color:#CF5510;
+}
+.content__headline{
+    width: 183px;
+    height: 125px;
+    font-family: 'Lobster', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 45px;
+    color: #646464;
+}
+.footer {
+    background: #249da1; 
+    padding-top: 18px;
+    padding-bottom: 19px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 190px;
+}
+.footer__text {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* Xiomi*/
+
+.Xiomi {
+    max-width: 1202px;
+    width: 100%;
+    margin: 0px auto;
+}
+.heading {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    margin-top: 37px;
+}
+.Xiomi__info {
+    margin-top: 24px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+.Xiomi__content{
+    width: 200px;
+    /* position: relative; */
+}
+.Xiomi__content2 {
+    width: 200px;
+    position: relative;
+}
+.Xiomi__content__new {
+    position: absolute;
+    top: -12px;
+    right: -13px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: #FFFFFF;
+    background:#3AA828;
+    border-radius: 20px;
+    padding: 3px 2px 4px 6px;  /*Указанные параменты не соответствуют указанным в фигме, однако выглядят на странице контент "Новичок" намного лучше */
+    text-transform: uppercase;
+}
+.Xiomi__name {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #000000; 
+    text-align: center;
+    margin-top: 8px;
+    text-decoration: none;
+}
+/*Apple */
+.inform__content {
+    padding-left: calc(50% - 820px /2);
+    padding-right: calc(50% - 820px /2);
+}
+.inform___text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    padding-bottom: 15px;
+    padding-top: 25px;
+}
+/* Contacts */
+.contact__inform {
+    max-width: 1268px;
+    width: 100%;
+    margin: 0px auto;
+}
+.contact__header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    color: #000000;
+    margin-top: 33px;
+    margin-bottom: 25px;
+    padding-left: 200px;
+}
+.сontact__details {
+    max-width: 439px;
+    width: 100%;
+    padding-left: 202px;
+}
+.contacts__our {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+    margin-top: 15px; 
+}
+.Contact_adress{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.Contact_phone {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    text-decoration: underline;
+    margin-bottom: 25px; 
+}
+/* стили для страницы POCO */
+.info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.head__img {
+    margin: 60px 80px;
+    width: 370px;
+}
+.Xiomi__content3 {
+    max-width: 450px;
+    width: 100%;
+    margin: 25px -20px;
+}
+.head {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    color: #000000;
+    margin-top: 36px;
+    margin-bottom: 25px;
+   
+}
+.info__Xiomi {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    max-width: 400px;
+}
+.block__image {
+    max-width: 500px;
+    width: 100%;
+    margin: 0px auto;
+    padding-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.pictures {
+    width: 140px;
+    height: 130px;
+}
+.visible {
+    display: block;
+}
+.header__link:hover {
+    color: antiquewhite;
+    background-color: rgb(182, 91, 162);
+    text-decoration: none;
+    transition: 0.7s;
+    border-radius: 50%;
+}
+.header__link__active {
+    color: rgb(64, 8, 120);
+    background-color: whitesmoke;
+    text-decoration: none;
+    transition: 0.7s;
+}
+.header__button:hover {
+    background: #ccea21;;
+    color: white;
+    transition: 0.5s;
+    border-radius: 60%;
+}
+.header__button2:hover {
+    background: #ccea21;;
+    color: white;
+    transition: 0.5s;
+    border-radius: 60%;
+}
+.header__button2:hover {
+    background: #18c5bc;;
+    color: rgb(15, 11, 11);
+    transition: 0.5s;
+    border-radius: 60%;
+}
+.head {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 21px;
+}
+@media (max-width: 1024px) {
+    /* стили для планшета*/
+    .header {
+    padding-left: 15px;
+    padding-right: 15px;
+    }
+    .header__link {
+    font-size: 18px;
+    line-height: 18px;
+    }
+    .content {
+    max-width: 888px;
+    }
+    .content__title {
+    font-size: 29px;
+    line-height: 33px;
+    }
+    .heading {
+    font-size: 28px;
+    line-height: 32px;
+    margin-top: 35px;
+     }
+    .Xiomi {
+    max-width: 950px;
+    margin: 0px auto;
+    }
+    .head__img {
+    margin: 60px 50px;
+    width: 260px;
+    }
+    .Xiomi__content3 {
+     max-width: 450px;
+    width: 100%;
+    margin: 27px 30px;
+    }
+    .block__image {
+    display: none;
+    }
+} 
+@media (max-width: 860px) AND (min-width: 801px) {
+    .header__button {
+    margin-right: 0;
+    width: 140px;
+    height: 45px;
+    font-size: 17px;
+    }
+    .header__link {
+    font-size: 16px;
+    line-height: 3px;
+    }
+    .content {
+    max-width: 780px;
+     }
+     .content {
+    max-width: 700px; 
+    }
+     .content__title {
+    font-size: 25px;
+    line-height: 26px;
+     }
+    .content__headline {
+    width: 150px;
+    height: 190px;
+     }
+    .Xiomi {
+     max-width: 750px;
+    margin: 0px auto;
+     }
+     .inform__content {
+    padding-left: calc(50% - 650px /2);
+    padding-right: calc(50% - 650px /2);
+    }
+    .inform__img {
+    width: 650px;
+    height: 450px;
+    }
+    .Xiomi__content3 {
+     max-width: 350px;
+    }
+    .info__Xiomi {
+     font-size: 16px;
+    }
+}
+@media (max-width: 800px) AND (min-width: 740px) {
+    .header {
+    padding-left: 8px;
+    padding-right: 8px;
+    }
+    .header__nav {
+    margin-right: 20px;
+    }
+    .header__button {
+    margin-right: 10px;
+    width: 130px;
+    height: 45px;
+    }
+    .content {
+    max-width: 690px;
+    }
+    .content__title {
+     font-size: 22px;
+    line-height: 26px;
+    }
+    .content__info {
+     max-width: 625px;
+    }
+    .Xiomi {
+    max-width: 710px;
+    margin: 0px auto;
+     }
+    .content__headline {
+    font-size: 35px;
+    line-height: 42px;
+    width: 75px;
+    height: 243px;
+    }
+    .inform__img {
+    width: 650px;
+    height: 450px;
+    }
+    .inform__content {
+    padding-left: calc(50% - 700px /2);
+    padding-right: calc(50% - 700px /2);
+    }
+    .contact__inform {
+    max-width: 800px;
+    }
+    .head__img {
+    width: 300px;
+    }
+    .Xiomi__content3 {
+    max-width: 300px;
+    margin: 20px;
+    }
+    .info__Xiomi {
+    font-size: 16px;
+    }
+    .info__Xiomi {
+     font-size: 15px;
+    }
+  }
+@media (max-width: 740px) AND (min-width: 680px) {
+    .header {
+    padding-left: 0px;
+    padding-right: 0px;
+     }
+    .header__nav {
+    margin-right: 20px;
+    }
+    .header__link {
+    font-size: 17px;
+    line-height: 11px;
+    }
+    .header__button {
+    margin-right: 0px;
+    width: 117px;
+    height: 42px;
+     }
+    .content {
+    max-width: 630px;
+    }
+     .content__title {
+     font-size: 21px;
+     line-height: 25px;
+    }
+    .content__info {
+    max-width: 625px;
+    }
+    .heading {
+    font-size: 25px;
+    }
+    .Xiomi {
+    max-width: 650px;
+    margin: 0px auto;
+    }
+     .Xiomi__info {
+     justify-content: center;
+    }
+     .content__headline {
+    font-size: 25px;
+    line-height: 37px;
+     width: 75px;
+     height: 243px;
+     }
+     .inform__img {
+     width: 640px;
+     height: 450px;
+     }
+    .inform__content {
+     padding-left: calc(50% - 640px /2);
+    padding-right: calc(50% - 640px /2);
+    }
+    .contact__inform {
+    max-width: 800px;
+    }
+    .inform___text {
+    margin-left: 30px;
+    }
+    .сontact__details {
+     max-width: 439px;
+     width: 100%;
+     padding-left: 135px;
+    }
+    .head__img {
+    width: 240px;
+     }
+    .Xiomi__content3 {
+     max-width: 300px;
+     margin: 20px;
+     }
+    .info__Xiomi {
+     font-size: 14px;
+     }
+    .info__Xiomi {
+    font-size: 13px;
+    }
+}
+@media (max-width: 680px) AND (min-width: 550px) {
+    .header {
+    padding-left: 0px;
+    padding-right: 0px;
+    }
+    .header__menu {
+    margin-left: 0px;
+    }
+    .header__link {
+    font-size: 15px;
+    line-height: 16px;
+    padding: 24px 11px;
+    }
+    .header__button {
+    margin-right: 10px;
+    width: 105px;
+    height: 43px;
+    }
+    .authorization__info {
+     width: 466px;
+    height: 385px;
+    margin-top: 25px;
+    }
+    .authorization__title {
+    font-size: 22px;
+    line-height: 20px;
+    }
+    .content {
+    max-width: 540px;
+    }
+    .content__title {
+    font-size: 20px;
+    line-height: 26px;
+    }
+    .content__img {
+     width: 440px;
+    }
+    .content__headline {
+    display: none;
+    }
+    .heading {
+    font-size: 25px;
+    line-height: 30px;
+    }
+    .Xiomi__info {
+    justify-content: center;
+    }
+    .inform__content {
+     padding-left: calc(50% - 560px /2);
+     padding-right: calc(50% - 560px /2);
+    }
+    .inform__img {
+     width: 560px;
+    height: 450px;
+    }
+    .contact__header {
+    font-size: 27px;
+    }
+    .сontact__details {
+     max-width: 439px;
+    width: 100%;
+    padding-left: 100px;
+    }
+    .footer {
+    font-size: 15px;
+    }
+    .head {
+    margin-top: 28px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    }
+    .head__img {
+    width: 200px;
+    margin: 59px 20px;
+    }
+    .м__content3 {
+     max-width: 271px;
+    margin: 20px;
+    }
+    .info__Xiomi {
+    font-size: 12px;
+    line-height: 15px;
+    }
+    .info__Xiomi {
+    font-size: 13px;
+    }
+} 
+@media (max-width: 550px) AND (min-width: 474px) {
+    .header {
+        padding-left: 0px;
+        padding-right: 0px;
+        }
+        .header__menu {
+            margin-left: 0px;
+        }
+        .header__link {
+         font-size: 13px;
+        line-height: 13px;
+        padding: 22px 10px;
+        }
+        .header__button {
+        margin-right: 10px;
+        width: 105px;
+        height: 43px;
+        font-size: 15px;
+        }
+        .authorization {
+         padding-left: calc(50% - 400px /2);
+        padding-right: calc(50% - 400px /2);
+        }
+        .authorization__info {
+        width: 412px;
+        height: 362px;
+        margin-top: 20px;
+        }
+        .authorization__title {
+            font-size: 21px;
+            line-height: 17px;
+        }
+        .authorization__log {
+        padding-left: 18px;
+        width: 373px;
+        height: 49px;
+        margin-top: 34px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        margin-left: 10px;
+    }
+    .authorization__pas {
+        padding-left: 18px;
+        width: 373px;
+        height: 49px;
+        margin-top: 34px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 25px;
+        margin-left: 10px;
+    }
+        .content__title {
+         font-size: 15px;
+        line-height: 21px;
+        }
+        .content {
+        max-width: 420px;
+        margin: 0 auto;
+        }
+        .content__img {
+            width: 420px;
+        }
+        .content__headline {
+            display: none;
+        }
+        .content__subtitle {
+            font-size: 21px;
+        }
+        .content__text {
+            font-size: 13px;
+        }
+        .heading {
+            font-size: 20px;
+        }
+        .Xiomi {
+            max-width: 420px;
+        }
+        .Xiomi__info {
+        justify-content: center;
+        }
+        .inform__content {
+         margin-left: 40px;
+        }
+        .Xiomi__name {
+        font-size: 16px;
+        }
+        .inform__img {
+         width: 420px;
+        height: 370px;
+        }
+        .contact__header {
+        font-size: 23px;
+        }
+        .сontact__details {
+         max-width: 410px;
+        width: 100%;
+        padding-left: 95px;
+        }
+        .contacts__our {
+        font-size: 20px;
+        }
+        .Contact_adress {
+        font-size: 14px;
+        }
+        .footer {
+        font-size: 15px;
+        }
+        .head {
+        margin-top: 15px;
+        margin-bottom: 0px;
+        font-size: 11px;
+        }
+        .head__img {
+         width: 200px;
+        margin: 38px 15px;
+        }
+        .м__content3 {
+        max-width: 220px;
+        margin: 10px;
+        }
+        .info__Xiomi {
+         font-size: 10px;
+        line-height: 13px;
+        }
+        .info__Xiomi {
+        font-size: 12px;
+         }
+}   
+@media (max-width: 474px) AND (min-width: 427px) {
+    /* стили для мобилки */
+    .header { 
+    padding-left: 0px;
+     padding-right: 0px; 
+    }
+     .header__Logo {
+    display: none;
+    }
+     .header__nav {
+    margin: -7px;
+    }
+    .header__button {
+     width: 74px;
+     height: 32px;
+    font-size: 13px;
+    line-height: 20px;
+    }
+     .header__menu {
+    margin-left: 20px;
+    }
+     .header__link {
+     font-size: 12px;
+    line-height: 18px;
+    padding: 23px 13px;
+    }
+    .authorization {
+    padding-left: calc(50% - 380px /2);
+    padding-right: calc(50% - 380px /2);
+    }
+    .authorization__info {
+    width: 388px;
+    height: 344px;
+     margin-top: 20px;
+    }
+    .authorization__title {
+    font-size: 21px;
+     line-height: 17px;
+    }
+    .authorization__log {
+     padding-left: 18px;
+    width: 340px;
+    height: 45px;
+    margin-top: 34px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+     margin-left: 10px;
+   }
+   .authorization__pas {
+    padding-left: 18px;
+    width: 340px;
+    height: 45px;
+    margin-top: 34px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    margin-left: 10px;
+   }
+   .header__button2 {
+    width: 100px;
+    height: 42px;
+    font-size: 17px;
+   }
+    .content {
+     max-width: 360px;
+    margin: 0 auto;
+    }
+    .content__title {
+    font-size: 17px;
+    line-height: 25px;
+    text-align: center;
+    }
+    .content__img {
+    width: 350px;
+    }
+    .content__subtitle {
+    font-size: 20px;
+    }
+    .content__text {
+    font-size: 12px;
+    line-height: 18px;
+    }
+     .content__headline {
+      display: none; 
+    }
+    .heading {
+     font-size: 20px;
+    line-height: 20px;
+    margin-top: 27px;
+    }
+    .Xiomi {
+    max-width: 350px;
+    margin: 0 auto;
+    }
+    .Xiomi__info {
+    justify-content: center;
+    }
+    .heading {
+    font-size: 21px;
+    line-height: 15px;
+    margin-top: 27px;
+    }
+    .inform__content {
+        padding-left: calc(50% - 380px /2);
+        padding-right: calc(50% - 380px /2);
+    }
+    .inform___text {    
+        font-size: 20px;
+    }
+    .inform__img {
+        width: 380px;
+    }
+    .contact__header {
+        font-size: 23px;
+        padding-left: 20px;
+    }
+    .сontact__details {
+        max-width: 380px;
+        padding-left: 50px;
+    }
+    .contacts__our {
+        font-size: 20px;
+    }
+    .Contact_adress {
+    font-size: 12px;
+    line-height: 20px;
+    }
+    .Contact_phone {
+    font-size: 15px;
+    }
+    .footer {
+     font-size: 12px;
+    }
+    .head {
+    margin-top: -30px;
+    margin-bottom: 2px;
+    font-size: 18px;
+    }
+    .head__img {
+    margin: 30px 70px;
+    }
+    .info__Xiomi {
+    font-size: 12px;
+    }
+}
+@media (max-width: 426px) AND (min-width: 370px)
+ {
+    .header { 
+        padding-left: 0px;
+         padding-right: 0px; 
+        }
+         .header__Logo {
+        display: none;
+        }
+         
+        .header__button {
+        margin-right: 0;
+         width: 74px;
+         height: 51px;
+        font-size: 13px;
+        line-height: 20px;
+        }
+         .header__menu {
+        margin-left: 20px;
+        }
+         .header__link {
+         font-size: 11px;
+        line-height: 11px;
+        padding: 20px 12px;
+        }
+        .authorization {
+        padding-left: calc(50% - 350px /2);
+         padding-right: calc(50% - 350px /2);
+        }
+         .authorization__info {
+        width: 345px;
+        height: 300px;
+        margin-top: 17px;
+        }
+        .authorization__title {
+         font-size: 17px;
+        line-height: 6px;
+         }
+        .authorization__log {
+         padding-left: 12px;
+         width: 300px;
+         height: 37px;
+         margin-top: 34px;
+         font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+        margin-left: 10px;
+         }
+        .authorization__pas {
+        padding-left: 12px;
+         width: 300px;
+        height: 37px;
+        margin-top: 34px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 25px;
+         margin-left: 10px;
+        }
+        .header__button2 {
+        margin: 43px auto;
+        width: 113px;
+         height: 37px;
+         font-size: 14px;
+        }
+        .content {
+         max-width: 360px;
+        margin: 0 auto;
+         }
+         .content__title {
+         font-size: 17px;
+         line-height: 25px;
+        text-align: center;
+        }
+        .content__img {
+        width: 350px;
+        }
+         .content__subtitle {
+         font-size: 20px;
+        }
+        .content__text {
+        font-size: 12px;
+        line-height: 18px;
+        }
+        .content__headline {
+         display: none; 
+        }
+        .Xiomi {
+        max-width: 350px;
+        margin: 0 auto;
+        }
+        .Xiomi__info {
+        justify-content: center;
+        }
+        .heading {
+        font-size: 19px;
+        line-height: 11px;
+         margin-top: 26px;
+        }
+        .inform__content {
+         padding-left: calc(50% - 350px /2);
+         padding-right: calc(50% - 350px /2);
+         }
+         .inform___text {    
+         font-size: 20px;
+        }
+        .inform__img {
+         width: 340px;
+        }
+        .contact__header {
+         padding-left: 30px;
+        font-size: 20px;
+         }
+        .сontact__details {
+         max-width: 340px;
+         padding-left: 50px;
+        }
+        .contacts__our {
+        font-size: 20px;
+        }
+        .Contact_adress {
+        font-size: 12px;
+        line-height: 20px;
+        }
+        .Contact_phone {
+        font-size: 15px;
+        }
+        .footer {
+        font-size: 12px;
+        }
+        .head__img {
+        width: 200px;
+        margin: 20px 70px;
+        }
+        .Xiomi__content3 {
+        max-width: 300px;
+        width: 100%;
+        margin: -25px 40px;
+        }
+        .info__Xiomi {
+        font-size: 12px;
+        }
+}
+@media (max-width: 369px)  {
+    .header { 
+     padding-left: 0px;
+     padding-right: 0px; 
+     }
+    .header__Logo {
+    display: none;
+    }
+    .header__button {
+    margin-right: 0;
+     width: 74px;
+    height: 50px;
+    font-size: 13px;
+    line-height: 20px;
+    }
+     .header__menu {
+    margin-left: 20px;
+    }
+     .header__link {
+    font-size: 10px;
+    line-height: 10px;
+     padding: 20px 10px;
+     }
+    .authorization {
+     padding-left: calc(50% - 300px /2);
+     padding-right: calc(50% - 300px /2);
+     }
+     .authorization__info {
+    width: 300px;
+    height: 290px;
+    margin-top: 14px;
+     }
+     .authorization__title {
+    font-size: 15px;
+    line-height: 5px;
+    }
+    .authorization__log {
+    padding-left: 6px;
+    width: 260px;
+    height: 30px;
+    margin-top: 34px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 25px;
+     margin-left: 10px;
+    }
+    .authorization__pas {
+    padding-left: 6px;
+    width: 260px;
+     height: 32px;
+     margin-top: 34px;
+    font-style: normal;
+     font-weight: 400;
+     font-size: 13px;
+     line-height: 25px;
+    margin-left: 10px;
+     }
+    .header__button2 {
+     margin: 43px auto;
+    width: 113px;
+     height: 37px;
+    font-size: 14px;
+     }    
+    .content {
+    max-width: 300px;
+    }
+    .content__title {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: none;
+    }
+    .content__img {
+    width: 300px;
+    }
+    .content__title {
+    padding-top: 25px;
+    }
+    .content__subtitle {
+    font-size: 17px;
+    }
+    .content__text {
+    font-size: 10px;
+    line-height: 17px;
+    }
+    .content__headline {
+    display: none; 
+    }
+    .heading {
+    font-size: 15px;
+    line-height: 14px;
+    margin-top: 25px;
+    margin-left: 35px;
+    }
+    .Xiomi__info {
+    justify-content: center;
+    }
+    .Xiomi__name {
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: 8px;
+    }
+    
+    .inform___text {
+    font-size: 13px;
+    line-height: 13px;
+    }
+    .inform__content {
+    padding-left: calc(50% - 310px /2);
+    padding-right: calc(50% - 310px /2);
+    }
+    .inform__img {
+    width: 300px;
+    }
+    .contact__header {
+    font-size: 18px;
+    padding-left: 18px;
+    }
+    .contacts__our {
+    font-size: 15px;
+    }
+    .сontact__details {
+    max-width: 300px;
+    padding-left: 40px;
+    }
+    .contact_adress {
+    font-size: 10px;
+    line-height: 16px;
+    }
+    .contact_phone {
+    font-size: 14px;
+    }
+    .footer {
+    font-size: 10px;
+    }
+    .head {
+    font-size: 17px;
+    }
+    .head__img {
+    width: 200px;
+    margin: 20px 70px;
+    }
+    .Xiomi__content3 {
+    max-width: 300px;
+    width: 100%;
+    margin: -25px 40px;
+    }
+    .info__Xiomi {
+    font-size: 11px;
+    }
+}       
